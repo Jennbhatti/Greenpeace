@@ -1,0 +1,345 @@
+*{ Margin:0;
+padding:0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;}
+
+body{ font-family: 'Open Sans', sans-serif;}
+
+nav{background-color:#293046;
+    height: 250px;
+    width: 100%;}
+
+label.logo{color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: bold;}
+
+nav ul {display: flex;
+    flex-direction: row;
+    float: left;
+    margin-right: 20px;
+justify-content: space-between;
+padding: 10px 0px;}
+
+ nav ul li{padding: 10px;
+    display: inline-block;
+    margin: 0;  
+justify-content: space-between;} 
+
+.subnav{display:flex;
+justify-content: space-between;
+width: 100%;
+padding: 20px;
+
+}
+nav ul li a{
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+a.active,a:hover{color: black;
+transition:0.5s} 
+
+button{float:right;
+background-color:#FD8124;
+padding:10px;
+border-radius: 35%;
+color:black;}
+
+.heroImage{
+    position: relative;
+}
+
+.subnav{height: 80px;
+    width: 100%;
+background-color:#6ACA25;
+}
+@media(max-width:768px)
+{label.logo{
+    font-size: 50px;
+    padding-left: 50px;}
+nav ul li a{
+    font-size: 1rem;
+}
+}
+
+.container{
+    position: relative;
+}
+.Textbox{position: absolute;
+    height: 401px;
+    width: 357px;
+    bottom: 80px;
+    right: 80px;
+    background-color:aliceblue;
+    opacity: 50%;
+    padding:left 30px;
+    padding: right 30px;
+    border: 100px;
+    text-size-adjust: 30px;}
+
+/* .btn{ align-items: center;
+} */
+
+h1{ position: absolute;
+    width: 230px;
+    height: 122px;
+    left: 46px;
+    top: 30px;}
+
+.Textbox h2{position: absolute;
+    width: 217px;
+    height: 96px;
+    left: 44px;
+    top: 172px;
+}
+.textboxbutton{ position:absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.Howcanwehelpbuttons{ display: flex;
+flex-direction: row;
+align-items:center ;
+padding: 20px;}
+.Howcanwehelpbuttons a{
+    background-color: #293046;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}
+.containerHelp{display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0px;
+}
+.Rightside{
+    width: 540px;
+    margin-left: 10px;
+}
+.Rightside .whoweare{
+    padding: 20px;
+display: flex;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+}
+.Rightside .whatwedo{
+    padding: 20px;
+}
+.Rightside .Whowearetitle{
+    width: 540px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.Rightside .whatwedo{
+padding: 20px;
+display: flex;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+}
+.Rightside .Whatwedotitle{
+    width: 540px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.MissionLeft{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 10px;
+}
+
+.Powertitle{
+    padding: 10px;
+    color: white;
+    font-size: 40px ;
+
+}
+
+.Donations{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #C3EAA8;
+
+}
+
+#Progress {
+    display: flex;
+    height: 20px;
+}
+
+#Progress > div {
+    height: 100%;
+    width: 33.3%;
+}
+#mybar{background-color: #293046;}
+.Dirthands {
+    width: 30%;
+}
+
+.Dirthands img {
+    width: 100%;
+}
+
+.gift{display:absolute;
+flex-direction:column;
+margin-top: 50px;
+text-align: center;
+}
+
+.Leftbuttons a{ 
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+    width: 100%;
+    background-color: #293046;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+
+.Rightbuttons a {
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+    width: 100%;
+    background-color: #293046;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+
+.Rightbuttons{float:right;
+    width:50%;
+    padding: 20px;
+}
+.Leftbuttons{float: left;
+    width: 50%;
+    padding: 20px;
+
+}
+.Donationbutton{
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+}
+
+.Donationnext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    background-color: #293046;
+    color: white;
+    padding: 5px 10px;
+    width: 25%;
+    float: right;
+}
+
+.Quickactionsection{
+    display: flex;
+    flex-direction: column;
+}
+.issues{ display:flex;
+}
+.issues-rightside{ display: flex;
+flex-direction: column;
+justify-content: center;}
+
+.issues-rightside div{display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    border: 1px solid #6ACA25;
+    border-radius: 25px;
+    border-color: #6ACA25;}
+.Defending{display: flex;
+    flex-direction: row;
+}
+.hide{
+    display: none;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    background-color: #6ACA25;
+
+}
+.Trashfish{
+    width: 60%;
+    margin-right: 15px;
+
+}
+
+.imagescontainer{
+    display: flex;
+    flex-direction: row;
+}
+.rightimages{
+    display: flex;
+    flex-direction: column;
+}
+
+.Beach{ margin-bottom: 15px;
+}
+
+.newsimage {
+    position: relative;
+}
+
+.newsimage img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Imagetitle{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: right;
+    padding-right:30px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+.Newstitle{
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-left:10px;
+}
+.Newsmore{
+    font-size: 10px;
+}
+.News{padding-top: 20px
+}
+footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display:-ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    padding:50px;
+    background-color: #293046;
+    color: white;
+    
+}
+
+.footgreen{
+    width: 100px;
+}
+.Socials{
+    padding-top: 80px;
+    
+}
